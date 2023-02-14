@@ -350,7 +350,7 @@ li::marker {
 .box-5 {
 	width: 946px;
 	height: 96px;
-	margin-bottom: 20px;
+	
 	margin-left: auto;
 	margin-right: auto;
 	display: grid;
@@ -370,11 +370,23 @@ li::marker {
 	padding-left: 30px;
 }
 
-.menu {
+.menu_1, .menu_2, .menu_3, .menu_4, .menu_5 {
 	background-color: #FFFFFF;
 	border-style: none;
 	color: #6A6D9E;
 	font-size: 64px;
+}
+
+button {
+	cursor: pointer;
+}
+
+
+.hidden_block {
+    display: none;
+}
+.visible_block {
+    display: block;
 }
 
 .end-plans-tabs {
@@ -414,4 +426,18 @@ li::marker {
 	font-size: 17px;
 	color: #6A6D9E;
 	margin-top: 30px;
+}
+
+.tab_content_1, .tab_content_2, .tab_content_3, .tab_content_4, .tab_content_5 {
+	color: #16194F;
+	background-color: #DCE2F0;
+	width: 850px;
+	height: fit-content;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	line-height: 150%;
+	box-shadow: 0px 25px 50px #16194f14;
+	border-radius: 0 0 20px 20px;
 }
